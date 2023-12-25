@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Glassmorphism</title>
+    <link rel="stylesheet" href="Projet1(Real%20Glassmorphism).css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Card One</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae minima ex accusamus en molestias incidunt omnis sequi quae sunt dolore totam asperiores qui?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam delectus dicta facere obcaecati sunt, dolorem maxime cum labore sed minus. Architecto facere doloribus quisquam ex tempora voluptatem ea sint a.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Card Two</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae minima ex accusamus en molestias incidunt omnis sequi quae sunt dolore totam asperiores qui?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam delectus dicta facere obcaecati sunt, dolorem maxime cum labore sed minus. Architecto facere doloribus quisquam ex tempora voluptatem ea sint a.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Card Three</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae minima ex accusamus en molestias incidunt omnis sequi quae sunt dolore totam asperiores qui?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam delectus dicta facere obcaecati sunt, dolorem maxime cum labore sed minus. Architecto facere doloribus quisquam ex tempora voluptatem ea sint a.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 10,
+		speed: 400,
+        glare: true,
+        "max-glare": 1,
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".card"));
+</script>
+</body>
+</html>
